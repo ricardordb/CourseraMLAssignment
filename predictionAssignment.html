@@ -213,7 +213,7 @@ confusionMatrix(data = predicted , reference = DTest$classe)</code></pre>
 ## Detection Rate         0.2843   0.1930   0.1734   0.1634   0.1838
 ## Detection Prevalence   0.2845   0.1940   0.1741   0.1634   0.1838
 ## Balanced Accuracy      0.9998   0.9981   0.9966   0.9984   1.0000</code></pre>
-<p>The accuracy on the test set is pretty high: 0.9972.</p>
+<p>The accuracy on the test set is pretty high: 0.9972, so the expected Out of Sample error is about 0.0028.</p>
 <p>Save training model object for later.</p>
 <pre class="r"><code>save(model.rf, file=&quot;modelrf.RData&quot;)</code></pre>
 <p><strong>Prediction on the test data</strong></p>
