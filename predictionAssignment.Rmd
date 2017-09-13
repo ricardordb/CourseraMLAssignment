@@ -99,7 +99,7 @@ predicted <- predict(model.rf, DTest)
 confusionMatrix(data = predicted , reference = DTest$classe)
 ```
 
-The accuracy on the test set is pretty high: 0.9972.
+The accuracy on the test set is pretty high: 0.9972, so the expected Out of Sample error is about 0.0028.
 
 Save training model object for later.
 
